@@ -13,4 +13,5 @@ fi
 mkdir -p "$PREFIX/bin"
 cp "$SOURCE" "$TARGET"
 chmod +x "$TARGET"
-echo "The acript is installed. Type cordax to run it"
+chmod +x "delete.sh"
+echo "The script is installed. Type cordax to run it"
